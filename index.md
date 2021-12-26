@@ -1,19 +1,20 @@
-## Welcome to GitHub Pages
+## Welcome to Idena Runner Script
 
-You can use the [editor on GitHub](https://github.com/ltraveler/idena-runner-man/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+You can download the latest on [on GitHub](https://github.com/ltraveler/idena-runner).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+All information related to the script you can find in REAMD.md file.
 
-### Markdown
+### Features
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Bash Script implementation of the Idena network node installation wizard.
+Install multiple instances of the Idena-Go in a simple and user-friendly way.
 
 ```markdown
 Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+# Multiple Idena instances installation: 1 user - 1 instance
+## Import the existing private/node keys during the installation process
+### Automatic updates crontask that can be schedulled during the installation process
 
 - Bulleted
 - List
@@ -26,12 +27,13 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+For more details see [README.md](https://github.com/ltraveler/idena-runner/blob/main/README.md).
 
-### Jekyll Themes
+### Idena Runner Manual page
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ltraveler/idena-runner-man/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Bash Script implementation of the Idena network node installation wizard.
+Install multiple instances of the Idena-Go in a simple and user-friendly way. [Idena Runner](https://github.com/ltraveler/idena-runner). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Having trouble with Pages? Check out our [documentation](https://github.com/ltraveler/idena-runner/blob/main/README.md) or [contact support](https://t.me/ltrvlr) and we’ll help you sort it out.
