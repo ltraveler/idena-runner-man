@@ -4,5 +4,4 @@ description: Bash Script implementation of the Idena network node installation w
 Install multiple instances of the Idena-Go in a simple and user-friendly way.
 show_downloads: true
 google_analytics:
-remote_theme: pages-themes/minimal@v0.2.0
 theme: jekyll-theme-minimal
