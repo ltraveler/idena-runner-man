@@ -11,3 +11,5 @@ github:
   zip_url: https://github.com/ltraveler/idena-runner/zipball/main
   tar_url: https://github.com/ltraveler/idena-runner/tarball/main
   repository_url: https://github.com/ltraveler/idena-runner
+lang:
+  ru: https://ltraveler.github.io/idena-runner-man/idena-runner-ru
