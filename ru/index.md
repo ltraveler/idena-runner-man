@@ -1,3 +1,10 @@
+---
+layout: default
+title: Скрипт автоматической настройки Идена ноды — Idena Runner Script
+lang: ru
+lang-ref: idena-runner-script
+---
+
 ## Welcome to Idena Runner Script
 
 <p align="justify"><b>Bash Script implementation</b> of the <b>Idena network node</b> installation wizard. Install multiple instances of the <b>Idena-Go</b> in a simple and user-friendly way.</p>
