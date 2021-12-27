@@ -15,30 +15,6 @@
   <body>
     <div class="wrapper">
       <header>
-<!-- Multi Language Support Start -->
-        <nav class="header__nav" aria-label="main">
-    <div class="header__links">
-        ...
-    </div>
-    {% if page.layout == 'default-en' %}
-    {% assign posts=site.posts | where:"lang-ref", page.lang-ref | sort: 'lang' %}
-    {% endif %}
-    {% if  page.layout != 'default-en' %}
-    {% assign posts=site.pages | where:"lang-ref", page.lang-ref | sort: 'lang' %}
-    {% endif %}
-    {% if posts.size > 1 %}
- 
-    <div class="header__langs">
-      {% for post in posts %}
-      {% if post.lang != page.lang %}
-      <a href="{{ site.base-url }}{{ post.url }}" class="header__lang header__lang-{{ post.lang }} title=" View in
-        {{post.lang}}" data-lang={{ post.lang }}></a>
-      {% endif %}
-      {% endfor %}
-    </div>
-    {% endif %}
-  </nav>
-<!-- Multi Language Support End -->
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
         {% if site.logo %}
