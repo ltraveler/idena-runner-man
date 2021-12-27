@@ -4,7 +4,7 @@ description: Bash Script implementation of the Idena network node installation w
 baseurl: "idena-runner-man"
 show_downloads: true
 plugins:
-google_analytics:
+google_analytics: G-S4M1CN0DM6
 theme: jekyll-theme-minimal
 github:
   zip_url: https://github.com/ltraveler/idena-runner/zipball/main
