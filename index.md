@@ -1,3 +1,11 @@
+---
+layout: default
+lang: en
+lang-ref: idena-runner-script
+permalink: /
+title: Welcome to Idena Runner Script
+---
+
 ## Welcome to Idena Runner Script
 
 <p align="justify"><b>Bash Script implementation</b> of the <b>Idena network node</b> installation wizard. Install multiple instances of the <b>Idena-Go</b> in a simple and user-friendly way.</p>
