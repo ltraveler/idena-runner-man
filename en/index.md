@@ -1,8 +1,9 @@
 ---
 layout: default
-title: Welcome to Idena Runner Script
 lang: en
 lang-ref: idena-runner-script
+permalink: /en/ir-script/
+title: Welcome to Idena Runner Script
 ---
 
 ## Welcome to Idena Runner Script
