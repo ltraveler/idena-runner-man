@@ -20,7 +20,10 @@
     <div class="header__links">
         ...
     </div>
-    {% if  page.layout != 'default-ru' %}
+    {% if page.layout == 'default-en' %}
+    {% assign posts=site.posts | where:"lang-ref", page.lang-ref | sort: 'lang' %}
+    {% endif %}
+    {% if  page.layout != 'default-en' %}
     {% assign posts=site.pages | where:"lang-ref", page.lang-ref | sort: 'lang' %}
     {% endif %}
     {% if posts.size > 1 %}
