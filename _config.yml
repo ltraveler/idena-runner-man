@@ -1,8 +1,11 @@
 title: Idena Runner Bash Script
-logo: /assets/img/logo.png
+logo: /assets/img/idena_runner_man_logo.png
 description: Bash Script implementation of the Idena network node installation wizard. Install multiple instances of the Idena-Go in a simple and user-friendly way.
 baseurl: "idena-runner-man"
 show_downloads: true
 plugins:
 google_analytics:
 theme: jekyll-theme-minimal
+github:
+  zip_url: https://github.com/ltraveler/idena-runner/archive/refs/tags/v0.2.2.zip
+  idenarunner_url: https://github.com/ltraveler/idena-runner/
