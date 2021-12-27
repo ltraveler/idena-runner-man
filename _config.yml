@@ -2,6 +2,7 @@ title: Idena Runner Bash Script
 logo: /assets/img/idena_runner_man_logo.png
 baseurl: "idena-runner-man"
 show_downloads: true
+show_copyrights: false
 plugins:
 google_analytics: G-S4M1CN0DM6
 theme: jekyll-theme-minimal
