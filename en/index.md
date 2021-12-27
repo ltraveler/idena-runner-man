@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-en
 lang: en
 lang-ref: idena-runner-script
 permalink: /en/ir-script/
