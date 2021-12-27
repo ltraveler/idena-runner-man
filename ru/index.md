@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-ru
 title: Скрипт автоматической настройки Идена ноды — Idena Runner Script
 lang: ru
 lang-ref: idena-runner-script
