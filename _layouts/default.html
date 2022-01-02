@@ -37,7 +37,7 @@
           <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
           <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
           
-        {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+        {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
         {% for page in pages %}
          <li><a href="/idena-runner-man/{{ page.url }}" class="{{ page.lang }}">Русский <strong>🇷🇺</strong></a></li>
         {% endfor %}
