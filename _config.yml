@@ -12,11 +12,11 @@ github:
   tar_url: https://github.com/ltraveler/idena-runner/tarball/main
   repository_url: https://github.com/ltraveler/idena-runner
   
-  in:
+  en:
   label: English
   icon: 🇬🇧
   read_it_in: "Read it in"
-it is:
+  ru:
   label: Русский
   icon: 🇷🇺
   read_it_in: "Читать на"
