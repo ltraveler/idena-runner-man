@@ -1,7 +1,7 @@
 ---
 layout: default
 lang: en
-lang-ref: idena-runner-script
+ref: idena-runner-script
 permalink: /
 title: Welcome to Idena Runner Script
 ---
