@@ -39,7 +39,7 @@
           
         {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
         {% for page in pages %}
-        <li><a href="idena-runner-man{{ page.url }}" class="{{ page.lang }}">English <strong>🇬🇧</strong></a></li>
+        <li><a href="{{ page.url }}" class="{{ page.lang }}">English <strong>🇬🇧</strong></a></li>
         {% endfor %}
         </ul>
         {% endif %}
