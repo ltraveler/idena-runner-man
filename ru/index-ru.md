@@ -1,6 +1,7 @@
 ---
 layout: default-ru
-lang: ru
+lang: 🇷🇺
+language: Русский
 ref: idena-runner-script
 title: Скрипт автоматической настройки Идена ноды — Idena Runner Script
 ---
