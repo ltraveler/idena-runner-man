@@ -11,3 +11,12 @@ github:
   zip_url: https://github.com/ltraveler/idena-runner/zipball/main
   tar_url: https://github.com/ltraveler/idena-runner/tarball/main
   repository_url: https://github.com/ltraveler/idena-runner
+  
+  in:
+  label: English
+  icon: 🇬🇧
+  read_it_in: "Read it in"
+it is:
+  label: Русский
+  icon: 🇷🇺
+  read_it_in: "Читать на"
