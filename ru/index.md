@@ -2,6 +2,7 @@
 layout: default-ru
 lang: ru
 ref: idena-runner-script
+permalink: ir-script-ru
 title: Скрипт автоматической настройки Идена ноды — Idena Runner Script
 ---
 
