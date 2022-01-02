@@ -61,24 +61,24 @@ title: Скрипт автоматической настройки Идена �
 
 ## 🗑️&nbsp; Idena-go instance uninstallation process (requires root privileges)
 
-1. `service idena_username stop` _stopping idena user instance_;
-2. `pkill -u username` _killing all processes related to the user_;
-3. `deluser --remove-home username` _removing related to idena-go instance user and all his files and folders_;
-4. `rm /etc/cron.d/idena_update_username` _removing cron idena-go update related task_;
-5. `rm /etc/systemd/system/idena_username.service` _removing idena daemon service related to the instance that we are uninstalling_;
-6. `systemctl daemon-reload` and `systemctl reset-failed` _updating systemctl changes that we have made in the previous step_;
-7. `ufw delete allow ipfs_port_number` you have to change ipfs_port_number to the ipfs port that you have used to install the idena-go instance. By default it is `40405`;
-8. `sudo visudo` you have to find and delete the line related to the deleted user.
+1. `service idena_username stop` _остановка демона idena от имени пользователя, инстанцию idena-go которого мы собираемся удалить_;
+2. `pkill -u username` _убиваем все активные процессы, которые принадлежат данному пользователю_;
+3. `deluser --remove-home username` _удаление относящихся к этому пользователю файлов и папок_;
+4. `rm /etc/cron.d/idena_update_username` _удаляем cron задачу, которая была создана для своевременного обновления ноды idena-go_;
+5. `rm /etc/systemd/system/idena_username.service` _удаляем демона idena привязанного к этому пользователю_;
+6. `systemctl daemon-reload` and `systemctl reset-failed` _обновление изменений в systemctl которые мы сделали на предыдущем шаге_;
+7. `ufw delete allow ipfs_port_number` вам нужно изменить порт ipfs_port_number для ipfs который вы использовали для установки idena-go инстанции. По умолчанию это порт # `40405`;
+8. `sudo visudo` вам нужно найти и удалить строку относящуюся к удаляемому пользователю.
 
-### 🤝&nbsp; Idena Donations
+### 🤝&nbsp; Кошелёк для отправки донейшенов
 
-* `0xf041640788910fc89a211cd5bcbf518f4f14d831` - **All donations are welcomed and appreciated**;
+* `0xf041640788910fc89a211cd5bcbf518f4f14d831` - **Любая сумма приветствуется и будет отмечена в специальном листе**;
 
-### ℹ️&nbsp; Other information
-* If you are looking for a stable shared node service, please contact me on **Telegram**  `@ltrvlr`
+### ℹ️&nbsp; Другая информация
+* Если вы ищете стабильный и надёжный сервис shared нод, вы всегда можете написать мне в личку в мессенджере **Telegram**  `@ltrvlr`
 
-### 🗣️&nbsp; Contact information
+### 🗣️&nbsp; Контактная информация
 * **Email** `ltraveler@protonmail.com`
 * **Telegram** `@ltrvlr`
 
-For more detailed information about **idena-go** client please check the official [idena-go](https://github.com/idena-network/idena-go) github repository.
+За более подробной информацией о клиенте **idena-go** вы можете обратится к официальному репозиторию [idena-go](https://github.com/idena-network/idena-go) github.
