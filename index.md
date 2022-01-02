@@ -1,7 +1,8 @@
 ---
 layout: default
-lang: en
+lang: 🇬🇧
 ref: idena-runner-script
+language: English
 title: Welcome to Idena Runner Script
 ---
 
