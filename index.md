@@ -2,7 +2,6 @@
 layout: default
 lang: en
 ref: idena-runner-script
-permalink: /
 title: Welcome to Idena Runner Script
 ---
 
