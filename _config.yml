@@ -15,8 +15,8 @@ github:
   en:
   label: English
   icon: 🇬🇧
-  read_it_in: "Read it in"
+  read_en: "Read it in"
   ru:
   label: Русский
   icon: 🇷🇺
-  read_it_in: "Читать на"
+  read_ru: "Читать на"
