@@ -21,25 +21,25 @@ title: Скрипт автоматической настройки Идена �
 * `chmod +x idena_install.sh` сделать скрипт исполняемым
 * `./idena_install.sh` запуск скрипта
 
-## ✅&nbsp; Features
+## ✅&nbsp; Функции
 
-* Multiple Idena instances installation: 1 user - 1 instance
-* Import the existing private/node keys during the installation process
-* Automatic updates crontask that can be schedulled during the installation process
-* Uncomplicated Firewall (UFW) configuration and automatic port rules updates during the idena-node instance installaltion 
+* Возможность установки нескольких нод на одном сервере: 1 пользователь - 1 сервер
+* Возможность импорта уже существующих приватных/нод ключей во время процесса установки
+* Автоматическое создание crontask задачи для автоматической проверки и установки новой версии клиента ноды idena-go
+* Автоматическая настройка и конфигурирование необходимых портов для Uncomplicated Firewall (UFW) во время процесса установки ноды. 
 
-## 🙋&nbsp; What the script is doing?
+## 🙋&nbsp; Что этот скрипт делает?
 
-1. Checking if the idena.service exists;
-2. Creating new user and password to run the Idena node daemon;
-3. Upgrading Ubuntu packages and installing all requiered dependecies;
-4. Downloading idena-go network node based on the version that user have entered. If the input is empty the script is downloading the latest one. The version history is available [here](https://github.com/idena-network/idena-go/releases);
-5. The script using pre-defined `config.json` file which can be changed during the installation process;
-6. Installing Idena-go and running it based on the config.json file from the repository;
-7. Changing API and Private keys of the node to the custom ones if the user wants so;
-8. Creating cron job to check for idena-go updates ones once a day. You can specify the frequency during the installation process;
-9. Creating Idena Daemon and running it;
-10. Installing and running firewall based on SSH and IPFS port numbers.
+1. Проверяет существует ли сервис idena.service exists;
+2. Создаёт нового пользователя и пароль для запуска демона ноды идена от его имени;
+3. Обновление необходимых пакетов и установка все требуемых зависимостей;
+4. Скачивание последней версии клиента ноды идена или той версии, которая была введена вручную в процессе установки. Если ввод оказался пустым, скачивается самая последняя версия. История релизов идена ноды [доступна здесь](https://github.com/idena-network/idena-go/releases);
+5. Скрипт использует предопределённый конфигурационный файл `config.json` который может быть изменён во время процесса установки;
+6. Установка клиента ноды Idena-go и его запуск основываясь на конфигурационном файле config.json доступным из репозитория;
+7. Возможность изменения на лету/во время установки API нод ключа и приватного ключа на ваши собственные есил они у вас есть;
+8. Создание задания cron для регулярной проверки наличия обновления для клиента ноды. По умолчанию проверка происходит раз в день. Вы можете указать любую периодичность с помощью языка cron;
+9. Создание демона Idena Daemon и его последующий запуск;
+10. Установка и конфигурирования необходимых настроек фаервола для добавления туда всех необходимых портов, основываясь на выставленных номерах портов SSH и IPFS.
 
 ##  ⚙️&nbsp;  About Idena Daemon
 The script is creating a service daemon called idena. Which starts on the boot.
