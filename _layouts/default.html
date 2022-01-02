@@ -39,12 +39,12 @@
           
         {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
         {% for post in posts %}
-        <li><a href="{{ post.url }}" class="{{ post.lang }}">English <strong>🇬🇧</strong></a></li>
+        <li><a href="/idena-runner-man/{{ post.url }}" class="{{ post.lang }}">English <strong>🇬🇧</strong></a></li>
         {% endfor %}
 
         {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
         {% for page in pages %}
-         <li><a href="{{ page.url }}" class="{{ page.lang }}">Русский <strong>🇷🇺</strong></a></li>
+         <li><a href="/idena-runner-man/{{ page.url }}" class="{{ page.lang }}">Русский <strong>🇷🇺</strong></a></li>
         {% endfor %}
         </ul>
         {% endif %}
