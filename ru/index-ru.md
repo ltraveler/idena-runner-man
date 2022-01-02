@@ -10,7 +10,7 @@ title: Скрипт автоматической настройки Идена �
 
 <p align="justify"><b>Установщик ноды Идена</b> в виде bash скрипта. Позволяет устанавить множество нод <b>Idena-Go</b> на ваш сервер в виде простого и понятного мастера с друественным интерфейсом.</p>
 
-<p align="center"><a href="https://github.com/ltraveler/idena-runner/releases/latest" target="_blank"><img src="https://img.shields.io/badge/version-v0.2.2-blue?style=for-the-badge&logo=none" alt="последняя версия скрипта idena runner" /></a>&nbsp;<a href="https://wiki.ubuntu.com/FocalFossa/ReleaseNotes" target="_blank"><img src="https://img.shields.io/badge/Ubuntu-20.04(LTS)+-00ADD8?style=for-the-badge&logo=none" alt="Ubuntu minimum version" /></a>&nbsp;<a href="https://github.com/ltraveler/idena-runner/blob/main/CHANGELOG.md" target="_blank"><img src="https://img.shields.io/badge/Build-Stable-success?style=for-the-badge&logo=none" alt="idena-go latest release" /></a>&nbsp;<a href="https://www.gnu.org/licenses/quick-guide-gplv3.html" target="_blank"><img src="https://img.shields.io/badge/license-GPL3.0-red?style=for-the-badge&logo=none" alt="license" /></a></p>
+<p align="center"><a href="https://github.com/ltraveler/idena-runner/releases/latest" target="_blank"><img src="https://img.shields.io/badge/версия-v0.2.2-blue?style=for-the-badge&logo=none" alt="последняя версия скрипта idena runner" /></a>&nbsp;<a href="https://wiki.ubuntu.com/FocalFossa/ReleaseNotes" target="_blank"><img src="https://img.shields.io/badge/Ubuntu-20.04(LTS)+-00ADD8?style=for-the-badge&logo=none" alt="Минимальная версия Ubuntu" /></a>&nbsp;<a href="https://github.com/ltraveler/idena-runner/blob/main/CHANGELOG.md" target="_blank"><img src="https://img.shields.io/badge/Build-Stable-success?style=for-the-badge&logo=none" alt="Последний релиз idena-go" /></a>&nbsp;<a href="https://www.gnu.org/licenses/quick-guide-gplv3.html" target="_blank"><img src="https://img.shields.io/badge/license-GPL3.0-red?style=for-the-badge&logo=none" alt="license" /></a></p>
 
 ## 🚀&nbsp; Запуск `idena_install.sh` (необходимо запускать от пользователя с привелегиями root)
 
@@ -41,23 +41,23 @@ title: Скрипт автоматической настройки Идена �
 9. Создание демона Idena Daemon и его последующий запуск;
 10. Установка и конфигурирования необходимых настроек фаервола для добавления туда всех необходимых портов, основываясь на выставленных номерах портов SSH и IPFS.
 
-##  ⚙️&nbsp;  About Idena Daemon
-The script is creating a service daemon called idena. Which starts on the boot.
-#### You can use these commands to control it:
-* `service idena_$username status`- to check the status 
-* `service idena_$username restart` - to restart the service
-* `service idena_$username stop` - to stop the service
-* `service idena_$username start` - to start the service
+##  ⚙️&nbsp;  Коротко об управлении демоном Idena
+Скрипт создаёт демон-сервис который разывается idena. Этот сервис запускается при запуске системы.
+#### Вы можете его котролировать с помощью следующих команд:
+* `service idena_$username status`- проверка статуса 
+* `service idena_$username restart` - перезапуск
+* `service idena_$username stop` - остановка демона
+* `service idena_$username start` - запуск демона
 
-*where $username is required instance username
+*здесь $username обязателен к вводу в качестве имени пользователя от которого запускается демон
 
-## ✔️&nbsp; Idena-runner instance update process (requires root privileges)
+## ✔️&nbsp; Idena-runner процесс обновления скрипта (требуются привелегии root)
 
-1. Backup the private key (`/home/idena_instance_username/idena-go/datadir/keystore/nodekey`)
-2. Backup the node api.key (`/home/idena_instance_username/idena-go/datadir/api.key`)
-3. Run the latest version of the idena-runner script and put the same username that you have used to install the instance that you are trying to update.
-That will overwrite all required files.
-***Attention:*** **all files inside the idena-go folder will be permanently deleted**.
+1. Сделайте бэкап приватного ключа (`/home/idena_instance_username/idena-go/datadir/keystore/nodekey`)
+2. Сделайте бэкап node api.key (`/home/idena_instance_username/idena-go/datadir/api.key`)
+3. Запустите самую последнии версию скрипта Idena Runner и введите имя пользователя от имени которого вы будете ставить сервис idena-go введите тоже самое имя от которого была установлена инстанция idena-runner изначально.
+Все файлы будут перезаписаны.
+***Внимание:*** **все файлы внутри папки idena-go буду полностью иничтожены**.
 
 ## 🗑️&nbsp; Idena-go instance uninstallation process (requires root privileges)
 
