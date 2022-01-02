@@ -34,7 +34,6 @@
         {% if site.show_downloads %}
         <ul class="downloads">
           <li><a href="{{ site.github.zip_url }}">Скачать <strong>ZIP архив</strong></a></li>
-          <li><a href="{{ site.github.tar_url }}">Скачать <strong>TAR архив</strong></a></li>
           <li><a href="{{ site.github.repository_url }}">Просмотр на <strong>GitHub</strong></a></li>
           
         {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
