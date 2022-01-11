@@ -4,6 +4,7 @@ lang: 🇬🇧
 ref: idena-runner-script
 language: English
 title: Welcome to Idena Runner Script
+introduction: Idena Node Implementation Script by ltraveler
 ---
 
 ## Welcome to Idena Runner Script
