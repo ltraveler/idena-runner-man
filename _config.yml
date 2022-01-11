@@ -1,4 +1,5 @@
 title: Idena Runner Bash Script
+description: "Bash Script implementation of the Idena network node installation wizard with the possibility to install multiple idena-go instances (1 user — 1 instance)"
 logo: /assets/img/idena_runner_man_logo.png
 baseurl: "idena-runner-man"
 google_site_verification: Y3sUQ3V7QpUpjFq4mrsm-BCevZBncXL96-3dxL58cEk
