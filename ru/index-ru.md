@@ -8,7 +8,7 @@ description: "Быстрый старт вашего сервера идена �
 introduction: "Скрипт (bash) для быстрой <strong>установки ноды Idena</strong> (idena-go) <strong>с автоматическими обновлениями</strong> для ОС <strong>Ubuntu 18.04</strong> и выше. С помощью Idena Runner вы можете <strong>установить на сервер одну и больше нод</strong>."
 ---
 
-<img src="{{site.logo | relative_url}}" alt="Idena Runner Bash Script Implementation" />
+<img style="width: 80vw;" src="{{site.logo | relative_url}}" alt="Idena Runner Bash Script Implementation" />
 
 ## Idena Runner: "Запуск вашего сервера ИДЕНА с возможностью мультинод"
 
