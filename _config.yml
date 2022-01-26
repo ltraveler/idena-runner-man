@@ -10,6 +10,7 @@ plugins:
 google_analytics: G-S4M1CN0DM6
 theme: jekyll-theme-minimal
 github:
+  is_project_page: false
   zip_url: https://github.com/ltraveler/idena-runner/zipball/main
   tar_url: https://github.com/ltraveler/idena-runner/tarball/main
   repository_url: https://github.com/ltraveler/idena-runner
