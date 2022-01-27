@@ -16,7 +16,7 @@ introduction: Idena Node Implementation Script by ltraveler
 ## 📈 Server Hardware Requirements
 
 **Requirements from the developers (for one idena-go instance):**
-* _1 CPU from 2.5 ГГц._
+* _1 CPU from 2.5 GHz._
 * _2 GB RAM._
 * _20 GB SSD._
 * _Internet port speed 100 Mbit/s._
