@@ -3,8 +3,9 @@ layout: default
 lang: 🇬🇧
 ref: idena-runner-script
 language: English
-title: Idena Runner: Idena blockchain node installation wizard with possibility to setup the shared one.
+title: "Idena Runner: Idena blockchain node installation wizard with possibility to setup the shared one."
 ptitle: Idena Runner — quick start of your IDENA node server 🏃
+description: "Quck start of your idena server on >= Ubuntu 18.04. This installation wizard helps you: install multimple nodes on one server, automatic updates of all installed IDENA instances, api key and private keys import, UFW auto configuration and setup all required ports in it"
 introduction: "Bash script quick <strong>Idena node installation</strong> (idena-go) <strong>with auto updates</strong> for <strong>Ubuntu 18.04</strong> and above. This wizard helps you to install <strong>multiple instances and specify the most important shared node args</strong>."
 ---
 
