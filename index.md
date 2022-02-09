@@ -3,15 +3,16 @@ layout: default
 lang: 🇬🇧
 ref: idena-runner-script
 language: English
-title: Welcome to Idena Runner Script
-introduction: Idena Node Implementation Script by ltraveler
+title: Idena Runner: Idena blockchain node installation wizard with possibility to setup the shared one.
+ptitle: Idena Runner — quick start of your IDENA node server 🏃
+introduction: "Bash script quick <strong>Idena node installation</strong> (idena-go) <strong>with auto updates</strong> for <strong>Ubuntu 18.04</strong> and above. This wizard helps you to install <strong>multiple instances and specify the most important shared node args</strong>."
 ---
 
 ## Welcome to Idena Runner Script
 
 <p align="justify"><b>Bash Script implementation</b> of the <b>Idena network node</b> installation wizard. Install multiple instances of the <b>Idena-Go</b> in a simple and user-friendly way.</p>
 
-<p align="center"><a href="https://github.com/ltraveler/idena-runner/releases/latest" target="_blank"><img src="https://img.shields.io/badge/version-v0.2.4-blue?style=for-the-badge&logo=none" alt="idena runner latest version" /></a>&nbsp;<a href="https://wiki.ubuntu.com/FocalFossa/ReleaseNotes" target="_blank"><img src="https://img.shields.io/badge/Ubuntu-20.04(LTS)+-00ADD8?style=for-the-badge&logo=none" alt="Ubuntu minimum version" /></a>&nbsp;<a href="https://github.com/ltraveler/idena-runner/blob/main/CHANGELOG.md" target="_blank"><img src="https://img.shields.io/badge/Build-Stable-success?style=for-the-badge&logo=none" alt="idena-go latest release" /></a>&nbsp;<a href="https://www.gnu.org/licenses/quick-guide-gplv3.html" target="_blank"><img src="https://img.shields.io/badge/license-GPL3.0-red?style=for-the-badge&logo=none" alt="license" /></a></p>
+<p align="center"><a href="https://github.com/ltraveler/idena-runner/releases/latest" target="_blank"><img src="https://img.shields.io/badge/version-v0.2.5-blue?style=for-the-badge&logo=none" alt="idena runner latest version" /></a>&nbsp;<a href="https://wiki.ubuntu.com/FocalFossa/ReleaseNotes" target="_blank"><img src="https://img.shields.io/badge/Ubuntu-20.04(LTS)+-00ADD8?style=for-the-badge&logo=none" alt="Ubuntu minimum version" /></a>&nbsp;<a href="https://github.com/ltraveler/idena-runner/blob/main/CHANGELOG.md" target="_blank"><img src="https://img.shields.io/badge/Build-Stable-success?style=for-the-badge&logo=none" alt="idena-go latest release" /></a>&nbsp;<a href="https://www.gnu.org/licenses/quick-guide-gplv3.html" target="_blank"><img src="https://img.shields.io/badge/license-GPL3.0-red?style=for-the-badge&logo=none" alt="license" /></a></p>
 
 ## 📈 Server Hardware Requirements
 
@@ -38,7 +39,8 @@ To install Idena node using this script, please folow these steps:
 * Multiple Idena instances installation: 1 user - 1 instance
 * Import the existing private/node keys during the installation process
 * Automatic updates crontask that can be schedulled during the installation process
-* Uncomplicated Firewall (UFW) configuration and automatic port rules updates during the idena-node instance installaltion 
+* Uncomplicated Firewall (UFW) configuration and automatic port rules updates during the idena-node instance installaltion
+* Possibility to install idena-go as a shared node with default recommended values
 
 ## 🙋&nbsp; What the script is doing?
 
@@ -52,6 +54,14 @@ To install Idena node using this script, please folow these steps:
 8. Creating cron job to check for idena-go updates ones once a day. You can specify the frequency during the installation process;
 9. Creating Idena Daemon and running it;
 10. Installing and running firewall based on SSH and IPFS port numbers.
+
+### 🏛️&nbsp;  In case if you are installing a shared node:
+1. The script will add `--profile=shared` to the service file;
+2. You can set the most important args: `BlockPinThreshold`, `FlipPinThreshold`, `AllFlipsLoadingTime`
+   - **Default values:** 
+     - `BlockPinThreshold` = `0.3`
+     - `FlipPinThreshold` = `1`
+     - `AllFlipsLoadingTime` = `7200000000000`
 
 ##  ⚙️&nbsp;  About Idena Daemon
 The script is creating a service daemon called idena. Which starts on the boot.
