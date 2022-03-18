@@ -79,9 +79,8 @@ The script is creating a service daemon called idena. Which starts on the boot.
 
 1. Backup the private key (`/home/idena_instance_username/idena-go/datadir/keystore/nodekey`)
 2. Backup the node api.key (`/home/idena_instance_username/idena-go/datadir/api.key`)
-3. Run the latest version of the idena-runner script and put the same username that you have used to install the instance that you are trying to update.
-That will overwrite all required files.
-***Attention:*** **all files inside the idena-go folder will be permanently deleted**.
+3. Run the latest version of the idena-runner script and put the same username that you have used to install the instance that you are trying to update.\
+***Attention:*** **all files inside the idena-go folder of the updating idena node instance will be permanently deleted**.
 4. `service idena_$username stop` - to stop the updated instance.
 5. Restore your private and API keys from the backup that you have made on the 1st step.
 6. `service idena_$username start` - to start the updated instance.
