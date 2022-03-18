@@ -75,7 +75,7 @@ The script is creating a service daemon called idena. Which starts on the boot.
 
 *where $username is required instance username
 
-## ⌛&nbsp; Idena-runner instance update process (requires root privileges)
+## ⏳&nbsp; Idena-runner instance update process (requires root privileges)
 
 1. Backup the private key (`/home/idena_instance_username/idena-go/datadir/keystore/nodekey`)
 2. Backup the node api.key (`/home/idena_instance_username/idena-go/datadir/api.key`)
