@@ -77,8 +77,8 @@ The script is creating a service daemon called idena. Which starts on the boot.
 
 ##  💻&nbsp;  Command Line Flags and Arguments
 Since version _0.3.0_ the script could be run in silence mode (aka **push installation**).
-All or part of the answers could be sent via flags and relevant arguments in the command line.
-**flags:**\
+All or part of the answers could be sent via flags and relevant arguments in the command line.\
+**Available flags:**\
             `-u` or `--username` - _username_\
             `-p` or `--password` - _password_ in case of using `-u` without `-p` the password would be the same as username\
             `-s` or `--shared` - _shared node installation_\
