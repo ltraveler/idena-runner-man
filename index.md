@@ -94,6 +94,9 @@ All or part of the answers could be sent via flags and relevant arguments in the
 
 **Apart from `-s` or `--shared` the rest of the flags need an argument inside '' (_apostrophe_)**
 
+_**For example:**_\
+`./idena_install.sh -u 'ratel' -p 'ratel' -s -v 'latest' -b '0.3' -f '1' -l '7200000000000' -r '9189' -i '41283' -k '6e17f7490f7922f3224d41769ce5ed2a01030de69d77163a291a77e8280aad3' -a '33e32cd86ecfb3179e50208428541a1e' -d '0 0 * * *'`
+
 ## ⏳&nbsp; Idena-runner instance update process (requires root privileges)
 
 1. Backup the private key (`/home/idena_instance_username/idena-go/datadir/keystore/nodekey`)
