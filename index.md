@@ -80,7 +80,7 @@ Since version _0.3.0_ the script could be run in silence mode (aka **push instal
 All or part of the answers could be sent via flags and relevant arguments in the command line.
 **flags:**\
             `-u` or `--username` - _username_\
-            `-p` or `password` - _password_ in case of using `-u` without `-p` the password would be the same as username\
+            `-p` or `--password` - _password_ in case of using `-u` without `-p` the password would be the same as username\
             `-s` or `--shared` - _shared node installation_\
             `-v` or `--version` - _idena-go node client version_ or _latest_ to download the latest one\
             `-b` or `--blockpinthreshold` - _Block Pin Threshold_ if not set but `-f` and/or `-l` have been applied, the script will use the default recommended value [`0.3`]\
