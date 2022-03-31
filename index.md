@@ -13,7 +13,7 @@ introduction: "Bash script quick <strong>Idena node installation</strong> (idena
 
 <p align="justify"><b>Bash Script implementation</b> of the <b>Idena network node</b> installation wizard. Install multiple instances of the <b>Idena-Go</b> in a simple and user-friendly way.</p>
 
-<p align="center"><a href="https://github.com/ltraveler/idena-runner/releases/latest" target="_blank"><img src="https://img.shields.io/badge/version-v0.2.9-blue?style=for-the-badge&logo=none" alt="idena runner latest version" /></a>&nbsp;<a href="https://wiki.ubuntu.com/FocalFossa/ReleaseNotes" target="_blank"><img src="https://img.shields.io/badge/Ubuntu-20.04(LTS)+-00ADD8?style=for-the-badge&logo=none" alt="Ubuntu minimum version" /></a>&nbsp;<a href="https://github.com/ltraveler/idena-runner/blob/main/CHANGELOG.md" target="_blank"><img src="https://img.shields.io/badge/Build-Stable-success?style=for-the-badge&logo=none" alt="idena-go latest release" /></a>&nbsp;<a href="https://www.gnu.org/licenses/quick-guide-gplv3.html" target="_blank"><img src="https://img.shields.io/badge/license-GPL3.0-red?style=for-the-badge&logo=none" alt="license" /></a></p>
+<p align="center"><a href="https://github.com/ltraveler/idena-runner/releases/latest" target="_blank"><img src="https://img.shields.io/badge/version-v0.3.1-blue?style=for-the-badge&logo=none" alt="idena runner latest version" /></a>&nbsp;<a href="https://wiki.ubuntu.com/FocalFossa/ReleaseNotes" target="_blank"><img src="https://img.shields.io/badge/Ubuntu-20.04(LTS)+-00ADD8?style=for-the-badge&logo=none" alt="Ubuntu minimum version" /></a>&nbsp;<a href="https://github.com/ltraveler/idena-runner/blob/main/CHANGELOG.md" target="_blank"><img src="https://img.shields.io/badge/Build-Stable-success?style=for-the-badge&logo=none" alt="idena-go latest release" /></a>&nbsp;<a href="https://www.gnu.org/licenses/quick-guide-gplv3.html" target="_blank"><img src="https://img.shields.io/badge/license-GPL3.0-red?style=for-the-badge&logo=none" alt="license" /></a></p>
 
 ## 📈 Server Hardware Requirements
 
@@ -74,6 +74,25 @@ The script is creating a service daemon called idena. Which starts on the boot.
 * `service idena_$username start` - to start the service
 
 *where $username is required instance username
+
+##  💻&nbsp;  Command Line Flags and Arguments
+Since version _0.3.0_ the script could be run in silence mode (aka **push installation**).
+All or part of the answers could be sent via flags and relevant arguments in the command line.
+**flags:**\
+            `-u` or `--user` - _username_\
+            `-p` or `password` - _password_ in case of using `-u` without `-p` the password would be the same as username\
+            `-s` or `--shared` - _shared node installation_\
+            `-v` or `--version` - _idena-go node client version_ or _latest_ to download the latest one\
+            `-b` or `--blockpinthreshold` - _Block Pin Threshold_ if not set but `-f` and/or `-l` have been applied, the script will use the default recommended value [`0.3`]\
+            `-f` or `--flippinthreshold` - _Flip Pin Threshold_ if not set but `-b` and/or `-l` have been applied, the script will use the default recommended value [`1`]\
+            `-l` or `--allflipsloadingtime` - _All Flips Loading Time_ if not set but `-b` and/or `-f` have been applied, the script will use the default recommended value [`7200000000000`]\
+            `-r` or `--rpcport` - _RPC Port_ aka _HTTP Port_\
+            `-i` or `--ipfsport` - _IPFS Port_\
+            `-k` or `--privatekey` - _IDENA Private Key_ aka _nodekey_\
+            `-a` or `--apikey` - _IDENA Node API Key_\
+            `-d` or `--updatefreq` - _Update frequency in CRON expression format_
+
+**Apart from `-s` or `--shared` the rest of the flags need an argument inside '' (_apostrophe_)**
 
 ## ⏳&nbsp; Idena-runner instance update process (requires root privileges)
 
