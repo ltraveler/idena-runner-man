@@ -13,7 +13,7 @@ introduction: "Скрипт (bash) для быстрой <strong>установ�
 
 <p align="justify"><b>Установщик Идена</b> в виде bash скрипта. Позволяет устанавить множество нод <b>Idena-Go</b> на ваш сервер в виде простого и понятного мастера с дружественным интерфейсом.</p>
 
-<p align="center"><a href="https://github.com/ltraveler/idena-runner/releases/latest" target="_blank"><img src="https://img.shields.io/badge/версия-v0.3.2-blue?style=for-the-badge&logo=none" alt="последняя версия скрипта idena runner" /></a>&nbsp;<a href="https://wiki.ubuntu.com/FocalFossa/ReleaseNotes" target="_blank"><img src="https://img.shields.io/badge/Ubuntu-18.04(LTS)+-00ADD8?style=for-the-badge&logo=none" alt="Минимальная версия Ubuntu" /></a>&nbsp;<a href="https://github.com/ltraveler/idena-runner/blob/main/CHANGELOG.md" target="_blank"><img src="https://img.shields.io/badge/Сборка-Стабильная-success?style=for-the-badge&logo=none" alt="Последний релиз idena-go" /></a>&nbsp;<a href="https://www.gnu.org/licenses/quick-guide-gplv3.html" target="_blank"><img src="https://img.shields.io/badge/лицензия-GPL3.0-red?style=for-the-badge&logo=none" alt="license" /></a></p>
+<p align="center"><a href="https://github.com/ltraveler/idena-runner/releases/latest" target="_blank"><img src="https://img.shields.io/badge/версия-v0.3.3-blue?style=for-the-badge&logo=none" alt="последняя версия скрипта idena runner" /></a>&nbsp;<a href="https://wiki.ubuntu.com/FocalFossa/ReleaseNotes" target="_blank"><img src="https://img.shields.io/badge/Ubuntu-18.04(LTS)+-00ADD8?style=for-the-badge&logo=none" alt="Минимальная версия Ubuntu" /></a>&nbsp;<a href="https://github.com/ltraveler/idena-runner/blob/main/CHANGELOG.md" target="_blank"><img src="https://img.shields.io/badge/Сборка-Стабильная-success?style=for-the-badge&logo=none" alt="Последний релиз idena-go" /></a>&nbsp;<a href="https://www.gnu.org/licenses/quick-guide-gplv3.html" target="_blank"><img src="https://img.shields.io/badge/лицензия-GPL3.0-red?style=for-the-badge&logo=none" alt="license" /></a></p>
 
 ## 📈 Требования к серверу
 
@@ -97,7 +97,7 @@ introduction: "Скрипт (bash) для быстрой <strong>установ�
 Начиная с версии _0.3.0_ скрипт может быть запущен в полностью автоматическом (**тихом**) режиме.
 В котором все или часть ответов на вопросы мастера установки, могут быть переданы через командную строку.
 **флаги:**\
-            `-u` или `--user` - _username_\
+            `-u` или `--username` - _username_\
             `-p` или `--password` - _password_ в случае использования `-u` без `-p` имя пользователя и пароль будут одинаковыми\
             `-s` или `--shared` - _установка клиента **idena-go** в качестве шаред ноды_\
             `-v` или `--version` - _версия клиента **idena-go**_ или аргумент _latest_ для скачивания последней доступной версии\
