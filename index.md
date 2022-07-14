@@ -5,7 +5,7 @@ ref: idena-runner-script
 language: English
 title: "Idena Runner: Idena blockchain node installation wizard with possibility to setup the shared one."
 ptitle: Idena Runner — quick start of your IDENA node server 🏃
-description: "Quck start of your idena server on >= Ubuntu 18.04. This installation wizard helps you: install multimple nodes on one server, automatic updates of all installed IDENA instances, api key and private keys import, UFW auto configuration and setup all required ports in it"
+description: "Quck start of your idena server on >= Ubuntu 20.04. This installation wizard helps you: install multimple nodes on one server, automatic updates of all installed IDENA instances, api key and private keys import, UFW auto configuration and setup all required ports in it"
 introduction: "Bash script quick <strong>Idena node installation</strong> (idena-go) <strong>with auto updates</strong> for <strong>Ubuntu 18.04</strong> and above. This wizard helps you to install <strong>multiple instances</strong> and <strong>specify</strong> the most <strong>important shared node args</strong>."
 ---
 
@@ -13,7 +13,7 @@ introduction: "Bash script quick <strong>Idena node installation</strong> (idena
 
 <p align="justify"><b>Bash Script implementation</b> of the <b>Idena network node</b> installation wizard. Install multiple instances of the <b>Idena-Go</b> in a simple and user-friendly way.</p>
 
-<p align="center"><a href="https://github.com/ltraveler/idena-runner/releases/latest" target="_blank"><img src="https://img.shields.io/badge/version-v0.3.5-blue?style=for-the-badge&logo=none" alt="idena runner latest version" /></a>&nbsp;<a href="https://wiki.ubuntu.com/FocalFossa/ReleaseNotes" target="_blank"><img src="https://img.shields.io/badge/Ubuntu-20.04(LTS)+-00ADD8?style=for-the-badge&logo=none" alt="Ubuntu minimum version" /></a>&nbsp;<a href="https://github.com/ltraveler/idena-runner/blob/main/CHANGELOG.md" target="_blank"><img src="https://img.shields.io/badge/Build-Stable-success?style=for-the-badge&logo=none" alt="idena-go latest release" /></a>&nbsp;<a href="https://www.gnu.org/licenses/quick-guide-gplv3.html" target="_blank"><img src="https://img.shields.io/badge/license-GPL3.0-red?style=for-the-badge&logo=none" alt="license" /></a></p>
+<p align="center"><a href="https://github.com/ltraveler/idena-runner/releases/latest" target="_blank"><img src="https://img.shields.io/badge/version-v0.3.7-blue?style=for-the-badge&logo=none" alt="idena runner latest version" /></a>&nbsp;<a href="https://wiki.ubuntu.com/FocalFossa/ReleaseNotes" target="_blank"><img src="https://img.shields.io/badge/Ubuntu-20.04(LTS)+-00ADD8?style=for-the-badge&logo=none" alt="Ubuntu minimum version" /></a>&nbsp;<a href="https://github.com/ltraveler/idena-runner/blob/main/CHANGELOG.md" target="_blank"><img src="https://img.shields.io/badge/Build-Stable-success?style=for-the-badge&logo=none" alt="idena-go latest release" /></a>&nbsp;<a href="https://www.gnu.org/licenses/quick-guide-gplv3.html" target="_blank"><img src="https://img.shields.io/badge/license-GPL3.0-red?style=for-the-badge&logo=none" alt="license" /></a></p>
 
 ## 📈 Server Hardware Requirements
 
@@ -22,7 +22,7 @@ introduction: "Bash script quick <strong>Idena node installation</strong> (idena
 * _2 GB RAM._
 * _20 GB SSD._
 * _Internet port speed 100 Mbit/s._
-* _Ubuntu 18.04 and above._
+* _Ubuntu 20.04 and above._
 
 **For validation period you can add 1-2 CPU in case if your server getting overload.**
 
