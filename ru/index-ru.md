@@ -5,15 +5,15 @@ language: Русский
 ref: idena-runner-script
 title: "Idena Runner: Настройка Идена ноды, её автоматическое обновление и установка в качестве шаред"
 ptitle: Idena Runner — быстрый старт вашего нод сервера 🏃
-description: "Быстрый старт вашего сервера идена на >= Ubuntu 18.04. Скрипт позволяет: запускать несколько нод на одном сервере, автоматическое обновление установленных IDENA нод, импорт api ключей ноды и вашего приватного ключа, настройка UFW и автоматическое конфигурирование портов"
-introduction: "Скрипт (bash) для быстрой <strong>установки ноды Idena</strong> (idena-go) <strong>с автоматическими обновлениями</strong> для ОС <strong>Ubuntu 18.04</strong> и выше. С его помощью вы можете <strong>установить на сервер одну и больше нод</strong>."
+description: "Быстрый старт вашего сервера идена на >= Ubuntu 20.04. Скрипт позволяет: запускать несколько нод на одном сервере, автоматическое обновление установленных IDENA нод, импорт api ключей ноды и вашего приватного ключа, настройка UFW и автоматическое конфигурирование портов"
+introduction: "Скрипт (bash) для быстрой <strong>установки ноды Idena</strong> (idena-go) <strong>с автоматическими обновлениями</strong> для ОС <strong>Ubuntu 20.04</strong> и выше. С его помощью вы можете <strong>установить на сервер одну и больше нод</strong>."
 ---
 
 ## Запуск, настройка и обновление ИДЕНА, <span style="font-size: 95%; color: gray;">с возможностью мультинод</span>
 
 <p align="justify"><b>Установщик Идена</b> в виде bash скрипта. Позволяет устанавить множество нод <b>Idena-Go</b> на ваш сервер в виде простого и понятного мастера с дружественным интерфейсом.</p>
 
-<p align="center"><a href="https://github.com/ltraveler/idena-runner/releases/latest" target="_blank"><img src="https://img.shields.io/badge/версия-v0.3.5-blue?style=for-the-badge&logo=none" alt="последняя версия скрипта idena runner" /></a>&nbsp;<a href="https://wiki.ubuntu.com/FocalFossa/ReleaseNotes" target="_blank"><img src="https://img.shields.io/badge/Ubuntu-18.04(LTS)+-00ADD8?style=for-the-badge&logo=none" alt="Минимальная версия Ubuntu" /></a>&nbsp;<a href="https://github.com/ltraveler/idena-runner/blob/main/CHANGELOG.md" target="_blank"><img src="https://img.shields.io/badge/Сборка-Стабильная-success?style=for-the-badge&logo=none" alt="Последний релиз idena-go" /></a>&nbsp;<a href="https://www.gnu.org/licenses/quick-guide-gplv3.html" target="_blank"><img src="https://img.shields.io/badge/лицензия-GPL3.0-red?style=for-the-badge&logo=none" alt="license" /></a></p>
+<p align="center"><a href="https://github.com/ltraveler/idena-runner/releases/latest" target="_blank"><img src="https://img.shields.io/badge/версия-v0.3.7-blue?style=for-the-badge&logo=none" alt="последняя версия скрипта idena runner" /></a>&nbsp;<a href="https://wiki.ubuntu.com/FocalFossa/ReleaseNotes" target="_blank"><img src="https://img.shields.io/badge/Ubuntu-20.04(LTS)+-00ADD8?style=for-the-badge&logo=none" alt="Минимальная версия Ubuntu" /></a>&nbsp;<a href="https://github.com/ltraveler/idena-runner/blob/main/CHANGELOG.md" target="_blank"><img src="https://img.shields.io/badge/Сборка-Стабильная-success?style=for-the-badge&logo=none" alt="Последний релиз idena-go" /></a>&nbsp;<a href="https://www.gnu.org/licenses/quick-guide-gplv3.html" target="_blank"><img src="https://img.shields.io/badge/лицензия-GPL3.0-red?style=for-the-badge&logo=none" alt="license" /></a></p>
 
 ## 📈 Требования к серверу
 
@@ -22,7 +22,7 @@ introduction: "Скрипт (bash) для быстрой <strong>установ�
 * _2 ГБ ОЗУ._
 * _20 ГБ SSD/HDD._
 * _Порт от 100 Мбит/сек._
-* _Ubuntu 18.04 и выше._
+* _Ubuntu 20.04 и выше._
 
 **На период валидации, во избежание перегрузки сервера, на случай оверсейла VPS, можно добавить 1-2 CPU.**
 
